@@ -37,7 +37,7 @@
     },
     created() {
       this.getCategory();
-
+      this.slideBarItemClick({index: 0,maitKey: "3627"})
     },
     methods: {
       // 请求分类名称数据
